@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ioleinik <ioleinik@students.42wolfsburg.de +#+  +:+       +#+        */
+/*   By: ioleinik <ioleinik@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/13 09:05:26 by ioleinik          #+#    #+#             */
-/*   Updated: 2021/11/13 20:31:52 by ioleinik         ###   ########.fr       */
+/*   Updated: 2021/11/21 21:10:39 by ioleinik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

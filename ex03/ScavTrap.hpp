@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ScavTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ioleinik <ioleinik@students.42wolfsburg.de +#+  +:+       +#+        */
+/*   By: ioleinik <ioleinik@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/13 10:04:49 by ioleinik          #+#    #+#             */
-/*   Updated: 2021/11/13 17:57:21 by ioleinik         ###   ########.fr       */
+/*   Updated: 2021/11/21 21:05:04 by ioleinik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ public:
 	void attack(std::string const &target);
 	ScavTrap &operator=(ScavTrap const &right);
 	void guardGate();
+	void setEnergy(void);
 };
 
 #endif

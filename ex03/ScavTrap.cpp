@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ScavTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ioleinik <ioleinik@students.42wolfsburg.de +#+  +:+       +#+        */
+/*   By: ioleinik <ioleinik@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/13 10:08:36 by ioleinik          #+#    #+#             */
-/*   Updated: 2021/11/13 10:35:55 by ioleinik         ###   ########.fr       */
+/*   Updated: 2021/11/21 21:06:29 by ioleinik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,4 +74,9 @@ void ScavTrap::attack(std::string const &target)
 				  << ", causing " << this->_attack_damage << " points of damage!"
 				  << std::endl;
 	}
+}
+
+void ScavTrap::setEnergy(void)
+{
+	this->_energy_points = 50;
 }

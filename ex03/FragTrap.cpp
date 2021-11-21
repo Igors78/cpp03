@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   FragTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ioleinik <ioleinik@students.42wolfsburg.de +#+  +:+       +#+        */
+/*   By: ioleinik <ioleinik@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/13 13:29:44 by ioleinik          #+#    #+#             */
-/*   Updated: 2021/11/13 13:34:04 by ioleinik         ###   ########.fr       */
+/*   Updated: 2021/11/21 21:04:15 by ioleinik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,4 +61,14 @@ void FragTrap::highFivesGuys()
 {
 	std::cout << "FragTrap " << this->_name << " requests high fives"
 			  << std::endl;
+}
+
+void FragTrap::setAttackDamage(void)
+{
+	this->_attack_damage = 30;
+}
+
+void FragTrap::setHitPoints(void)
+{
+	this->_hitpoints = 100;
 }
